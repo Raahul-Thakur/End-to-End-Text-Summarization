@@ -1,0 +1,572 @@
+[2025-01-12 16:58:38,271: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:04:53,869: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:04:54,668: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:04:54,668: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\config\configuration.py", line 23, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\config\\config.yaml'
+[2025-01-12 17:13:23,313: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:13:24,090: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:13:24,090: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\configuration\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\config\configuration.py", line 23, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\configuration\\config.yaml'
+[2025-01-12 17:22:35,261: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:22:35,826: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:22:35,842: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\configuration\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\config\configuration.py", line 22, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\configuration\\config.yaml'
+[2025-01-12 17:25:46,595: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:25:47,194: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:25:47,194: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\configuration\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\config\configuration.py", line 23, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\configuration\\config.yaml'
+[2025-01-12 17:32:23,180: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:32:23,745: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:32:23,745: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\src\artifacts]
+[2025-01-12 17:32:23,745: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\configuration\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\config\configuration.py", line 27, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\thaku\\Projects\\NLP Text Summarization\\src\\configuration\\config.yaml'
+[2025-01-12 17:45:33,568: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:45:34,927: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:45:34,927: ERROR: main: Config file not found at C:\Users\thaku\Projects\NLP Text Summarization\src\configuration\config.yaml]
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\config\configuration.py", line 23, in __init__
+    raise FileNotFoundError(f"Config file not found at {CONFIG_FILE_PATH}")
+FileNotFoundError: Config file not found at C:\Users\thaku\Projects\NLP Text Summarization\src\configuration\config.yaml
+[2025-01-12 17:48:39,722: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:48:40,338: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:48:40,346: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:48:40,346: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:48:40,346: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:48:40,346: INFO: common: created directory at: artifacts]
+[2025-01-12 17:48:40,354: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-12 17:48:42,642: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7132:36D686:2B31C6:4120CF:6783B321
+Accept-Ranges: bytes
+Date: Sun, 12 Jan 2025 12:18:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4738-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1736684322.522048,VS0,VE723
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a5fba818090d77e216884f99d94da8b8189b855c
+Expires: Sun, 12 Jan 2025 12:23:42 GMT
+Source-Age: 0
+
+]
+[2025-01-12 17:48:42,842: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:48:42,845: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-12 17:48:42,846: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:48:42,853: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:48:42,855: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:48:42,858: INFO: common: created directory at: artifacts]
+[2025-01-12 17:48:42,860: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-12 17:48:42,863: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:48:42,871: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-12 17:48:42,877: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:48:42,895: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:48:42,906: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:48:42,906: INFO: common: created directory at: artifacts]
+[2025-01-12 17:48:42,911: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-12 17:48:48,540: ERROR: main: 
+ requires the protobuf library but it was not found in your environment. Checkout the instructions on the
+installation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+]
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1496, in extract_vocab_merges_from_model
+    from tiktoken.load import load_tiktoken_bpe
+ModuleNotFoundError: No module named 'tiktoken'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1636, in convert_slow_tokenizer
+    ).converted()
+      ^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1533, in converted
+    tokenizer = self.tokenizer()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1526, in tokenizer
+    vocab_scores, merges = self.extract_vocab_merges_from_model(self.vocab_file)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1498, in extract_vocab_merges_from_model
+    raise ValueError(
+ValueError: `tiktoken` is required to read a `tiktoken` file. Install it with `pip install tiktoken`.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_base.py", line 2276, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\models\pegasus\tokenization_pegasus_fast.py", line 136, in __init__
+    super().__init__(
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_fast.py", line 139, in __init__
+    fast_tokenizer = convert_slow_tokenizer(self, from_tiktoken=True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1638, in convert_slow_tokenizer
+    raise ValueError(
+ValueError: Converting from Tiktoken failed, if a converter for SentencePiece is available, provide a model path with a SentencePiece tokenizer.model file.Currently available slow->fast convertors: ['AlbertTokenizer', 'BartTokenizer', 'BarthezTokenizer', 'BertTokenizer', 'BigBirdTokenizer', 'BlenderbotTokenizer', 'CamembertTokenizer', 'CLIPTokenizer', 'CodeGenTokenizer', 'ConvBertTokenizer', 'DebertaTokenizer', 'DebertaV2Tokenizer', 'DistilBertTokenizer', 'DPRReaderTokenizer', 'DPRQuestionEncoderTokenizer', 'DPRContextEncoderTokenizer', 'ElectraTokenizer', 'FNetTokenizer', 'FunnelTokenizer', 'GPT2Tokenizer', 'HerbertTokenizer', 'LayoutLMTokenizer', 'LayoutLMv2Tokenizer', 'LayoutLMv3Tokenizer', 'LayoutXLMTokenizer', 'LongformerTokenizer', 'LEDTokenizer', 'LxmertTokenizer', 'MarkupLMTokenizer', 'MBartTokenizer', 'MBart50Tokenizer', 'MPNetTokenizer', 'MobileBertTokenizer', 'MvpTokenizer', 'NllbTokenizer', 'OpenAIGPTTokenizer', 'PegasusTokenizer', 'Qwen2Tokenizer', 'RealmTokenizer', 'ReformerTokenizer', 'RemBertTokenizer', 'RetriBertTokenizer', 'RobertaTokenizer', 'RoFormerTokenizer', 'SeamlessM4TTokenizer', 'SqueezeBertTokenizer', 'T5Tokenizer', 'UdopTokenizer', 'WhisperTokenizer', 'XLMRobertaTokenizer', 'XLNetTokenizer', 'SplinterTokenizer', 'XGLMTokenizer', 'LlamaTokenizer', 'CodeLlamaTokenizer', 'GemmaTokenizer', 'Phi3Tokenizer']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_03_data_transformation.py", line 13, in main
+    data_transformation = DataTransformation(config=data_transformation_config)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\components\data_transformation.py", line 12, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 953, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_base.py", line 2036, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_base.py", line 2277, in _from_pretrained
+    except import_protobuf_decode_error():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_base.py", line 87, in import_protobuf_decode_error
+    raise ImportError(PROTOBUF_IMPORT_ERROR.format(error_message))
+ImportError: 
+ requires the protobuf library but it was not found in your environment. Checkout the instructions on the
+installation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+[2025-01-12 17:54:04,397: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:54:05,128: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:54:05,128: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:54:05,135: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:54:05,135: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:54:05,135: INFO: common: created directory at: artifacts]
+[2025-01-12 17:54:05,135: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-12 17:54:05,135: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-01-12 17:54:05,290: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:54:05,290: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-12 17:54:05,290: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:54:05,298: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:54:05,298: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:54:05,305: INFO: common: created directory at: artifacts]
+[2025-01-12 17:54:05,305: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-12 17:54:05,305: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:54:05,305: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-12 17:54:05,305: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:54:05,313: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:54:05,314: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:54:05,314: INFO: common: created directory at: artifacts]
+[2025-01-12 17:54:05,314: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-12 17:54:06,185: ERROR: main: Converting from Tiktoken failed, if a converter for SentencePiece is available, provide a model path with a SentencePiece tokenizer.model file.Currently available slow->fast convertors: ['AlbertTokenizer', 'BartTokenizer', 'BarthezTokenizer', 'BertTokenizer', 'BigBirdTokenizer', 'BlenderbotTokenizer', 'CamembertTokenizer', 'CLIPTokenizer', 'CodeGenTokenizer', 'ConvBertTokenizer', 'DebertaTokenizer', 'DebertaV2Tokenizer', 'DistilBertTokenizer', 'DPRReaderTokenizer', 'DPRQuestionEncoderTokenizer', 'DPRContextEncoderTokenizer', 'ElectraTokenizer', 'FNetTokenizer', 'FunnelTokenizer', 'GPT2Tokenizer', 'HerbertTokenizer', 'LayoutLMTokenizer', 'LayoutLMv2Tokenizer', 'LayoutLMv3Tokenizer', 'LayoutXLMTokenizer', 'LongformerTokenizer', 'LEDTokenizer', 'LxmertTokenizer', 'MarkupLMTokenizer', 'MBartTokenizer', 'MBart50Tokenizer', 'MPNetTokenizer', 'MobileBertTokenizer', 'MvpTokenizer', 'NllbTokenizer', 'OpenAIGPTTokenizer', 'PegasusTokenizer', 'Qwen2Tokenizer', 'RealmTokenizer', 'ReformerTokenizer', 'RemBertTokenizer', 'RetriBertTokenizer', 'RobertaTokenizer', 'RoFormerTokenizer', 'SeamlessM4TTokenizer', 'SqueezeBertTokenizer', 'T5Tokenizer', 'UdopTokenizer', 'WhisperTokenizer', 'XLMRobertaTokenizer', 'XLNetTokenizer', 'SplinterTokenizer', 'XGLMTokenizer', 'LlamaTokenizer', 'CodeLlamaTokenizer', 'GemmaTokenizer', 'Phi3Tokenizer']]
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1636, in convert_slow_tokenizer
+    ).converted()
+      ^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1533, in converted
+    tokenizer = self.tokenizer()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1526, in tokenizer
+    vocab_scores, merges = self.extract_vocab_merges_from_model(self.vocab_file)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1502, in extract_vocab_merges_from_model
+    bpe_ranks = load_tiktoken_bpe(tiktoken_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\tiktoken\load.py", line 144, in load_tiktoken_bpe
+    contents = read_file_cached(tiktoken_bpe_file, expected_hash)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\tiktoken\load.py", line 48, in read_file_cached
+    cache_key = hashlib.sha1(blobpath.encode()).hexdigest()
+                             ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_03_data_transformation.py", line 13, in main
+    data_transformation = DataTransformation(config=data_transformation_config)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\components\data_transformation.py", line 12, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 953, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_base.py", line 2036, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_base.py", line 2276, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\models\pegasus\tokenization_pegasus_fast.py", line 136, in __init__
+    super().__init__(
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_fast.py", line 139, in __init__
+    fast_tokenizer = convert_slow_tokenizer(self, from_tiktoken=True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1638, in convert_slow_tokenizer
+    raise ValueError(
+ValueError: Converting from Tiktoken failed, if a converter for SentencePiece is available, provide a model path with a SentencePiece tokenizer.model file.Currently available slow->fast convertors: ['AlbertTokenizer', 'BartTokenizer', 'BarthezTokenizer', 'BertTokenizer', 'BigBirdTokenizer', 'BlenderbotTokenizer', 'CamembertTokenizer', 'CLIPTokenizer', 'CodeGenTokenizer', 'ConvBertTokenizer', 'DebertaTokenizer', 'DebertaV2Tokenizer', 'DistilBertTokenizer', 'DPRReaderTokenizer', 'DPRQuestionEncoderTokenizer', 'DPRContextEncoderTokenizer', 'ElectraTokenizer', 'FNetTokenizer', 'FunnelTokenizer', 'GPT2Tokenizer', 'HerbertTokenizer', 'LayoutLMTokenizer', 'LayoutLMv2Tokenizer', 'LayoutLMv3Tokenizer', 'LayoutXLMTokenizer', 'LongformerTokenizer', 'LEDTokenizer', 'LxmertTokenizer', 'MarkupLMTokenizer', 'MBartTokenizer', 'MBart50Tokenizer', 'MPNetTokenizer', 'MobileBertTokenizer', 'MvpTokenizer', 'NllbTokenizer', 'OpenAIGPTTokenizer', 'PegasusTokenizer', 'Qwen2Tokenizer', 'RealmTokenizer', 'ReformerTokenizer', 'RemBertTokenizer', 'RetriBertTokenizer', 'RobertaTokenizer', 'RoFormerTokenizer', 'SeamlessM4TTokenizer', 'SqueezeBertTokenizer', 'T5Tokenizer', 'UdopTokenizer', 'WhisperTokenizer', 'XLMRobertaTokenizer', 'XLNetTokenizer', 'SplinterTokenizer', 'XGLMTokenizer', 'LlamaTokenizer', 'CodeLlamaTokenizer', 'GemmaTokenizer', 'Phi3Tokenizer']
+[2025-01-12 17:57:36,551: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:57:37,162: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:57:37,162: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:57:37,162: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:57:37,162: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:57:37,162: INFO: common: created directory at: artifacts]
+[2025-01-12 17:57:37,162: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-12 17:57:37,162: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-01-12 17:57:37,289: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:57:37,289: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-12 17:57:37,289: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:57:37,289: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:57:37,304: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:57:37,304: INFO: common: created directory at: artifacts]
+[2025-01-12 17:57:37,304: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-12 17:57:37,304: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:57:37,304: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-12 17:57:37,304: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:57:37,309: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:57:37,309: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:57:37,309: INFO: common: created directory at: artifacts]
+[2025-01-12 17:57:37,309: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-12 17:57:37,603: ERROR: main: Converting from Tiktoken failed, if a converter for SentencePiece is available, provide a model path with a SentencePiece tokenizer.model file.Currently available slow->fast convertors: ['AlbertTokenizer', 'BartTokenizer', 'BarthezTokenizer', 'BertTokenizer', 'BigBirdTokenizer', 'BlenderbotTokenizer', 'CamembertTokenizer', 'CLIPTokenizer', 'CodeGenTokenizer', 'ConvBertTokenizer', 'DebertaTokenizer', 'DebertaV2Tokenizer', 'DistilBertTokenizer', 'DPRReaderTokenizer', 'DPRQuestionEncoderTokenizer', 'DPRContextEncoderTokenizer', 'ElectraTokenizer', 'FNetTokenizer', 'FunnelTokenizer', 'GPT2Tokenizer', 'HerbertTokenizer', 'LayoutLMTokenizer', 'LayoutLMv2Tokenizer', 'LayoutLMv3Tokenizer', 'LayoutXLMTokenizer', 'LongformerTokenizer', 'LEDTokenizer', 'LxmertTokenizer', 'MarkupLMTokenizer', 'MBartTokenizer', 'MBart50Tokenizer', 'MPNetTokenizer', 'MobileBertTokenizer', 'MvpTokenizer', 'NllbTokenizer', 'OpenAIGPTTokenizer', 'PegasusTokenizer', 'Qwen2Tokenizer', 'RealmTokenizer', 'ReformerTokenizer', 'RemBertTokenizer', 'RetriBertTokenizer', 'RobertaTokenizer', 'RoFormerTokenizer', 'SeamlessM4TTokenizer', 'SqueezeBertTokenizer', 'T5Tokenizer', 'UdopTokenizer', 'WhisperTokenizer', 'XLMRobertaTokenizer', 'XLNetTokenizer', 'SplinterTokenizer', 'XGLMTokenizer', 'LlamaTokenizer', 'CodeLlamaTokenizer', 'GemmaTokenizer', 'Phi3Tokenizer']]
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1636, in convert_slow_tokenizer
+    ).converted()
+      ^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1533, in converted
+    tokenizer = self.tokenizer()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1526, in tokenizer
+    vocab_scores, merges = self.extract_vocab_merges_from_model(self.vocab_file)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1502, in extract_vocab_merges_from_model
+    bpe_ranks = load_tiktoken_bpe(tiktoken_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\tiktoken\load.py", line 144, in load_tiktoken_bpe
+    contents = read_file_cached(tiktoken_bpe_file, expected_hash)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\tiktoken\load.py", line 48, in read_file_cached
+    cache_key = hashlib.sha1(blobpath.encode()).hexdigest()
+                             ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_03_data_transformation.py", line 13, in main
+    data_transformation = DataTransformation(config=data_transformation_config)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\components\data_transformation.py", line 12, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 953, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_base.py", line 2036, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_base.py", line 2276, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\models\pegasus\tokenization_pegasus_fast.py", line 136, in __init__
+    super().__init__(
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\tokenization_utils_fast.py", line 139, in __init__
+    fast_tokenizer = convert_slow_tokenizer(self, from_tiktoken=True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1638, in convert_slow_tokenizer
+    raise ValueError(
+ValueError: Converting from Tiktoken failed, if a converter for SentencePiece is available, provide a model path with a SentencePiece tokenizer.model file.Currently available slow->fast convertors: ['AlbertTokenizer', 'BartTokenizer', 'BarthezTokenizer', 'BertTokenizer', 'BigBirdTokenizer', 'BlenderbotTokenizer', 'CamembertTokenizer', 'CLIPTokenizer', 'CodeGenTokenizer', 'ConvBertTokenizer', 'DebertaTokenizer', 'DebertaV2Tokenizer', 'DistilBertTokenizer', 'DPRReaderTokenizer', 'DPRQuestionEncoderTokenizer', 'DPRContextEncoderTokenizer', 'ElectraTokenizer', 'FNetTokenizer', 'FunnelTokenizer', 'GPT2Tokenizer', 'HerbertTokenizer', 'LayoutLMTokenizer', 'LayoutLMv2Tokenizer', 'LayoutLMv3Tokenizer', 'LayoutXLMTokenizer', 'LongformerTokenizer', 'LEDTokenizer', 'LxmertTokenizer', 'MarkupLMTokenizer', 'MBartTokenizer', 'MBart50Tokenizer', 'MPNetTokenizer', 'MobileBertTokenizer', 'MvpTokenizer', 'NllbTokenizer', 'OpenAIGPTTokenizer', 'PegasusTokenizer', 'Qwen2Tokenizer', 'RealmTokenizer', 'ReformerTokenizer', 'RemBertTokenizer', 'RetriBertTokenizer', 'RobertaTokenizer', 'RoFormerTokenizer', 'SeamlessM4TTokenizer', 'SqueezeBertTokenizer', 'T5Tokenizer', 'UdopTokenizer', 'WhisperTokenizer', 'XLMRobertaTokenizer', 'XLNetTokenizer', 'SplinterTokenizer', 'XGLMTokenizer', 'LlamaTokenizer', 'CodeLlamaTokenizer', 'GemmaTokenizer', 'Phi3Tokenizer']
+[2025-01-12 17:59:22,530: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 17:59:23,144: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 17:59:23,144: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:59:23,144: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:59:23,144: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:59:23,144: INFO: common: created directory at: artifacts]
+[2025-01-12 17:59:23,144: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-12 17:59:24,403: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7132:36D686:2B31C6:4120CF:6783B321
+Accept-Ranges: bytes
+Date: Sun, 12 Jan 2025 12:29:24 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4733-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1736684965.508293,VS0,VE238
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e50c3b6c30e8fcb738b7a8a44699d582727b63e5
+Expires: Sun, 12 Jan 2025 12:34:24 GMT
+Source-Age: 0
+
+]
+[2025-01-12 17:59:24,521: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:59:24,521: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-12 17:59:24,521: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:59:24,521: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:59:24,521: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:59:24,521: INFO: common: created directory at: artifacts]
+[2025-01-12 17:59:24,521: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-12 17:59:24,531: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:59:24,532: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-12 17:59:24,533: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:59:24,534: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:59:24,536: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:59:24,537: INFO: common: created directory at: artifacts]
+[2025-01-12 17:59:24,538: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-12 17:59:35,182: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 17:59:35,183: INFO: main: *******************]
+[2025-01-12 17:59:35,183: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-01-12 17:59:35,184: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 17:59:35,187: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 17:59:35,190: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 17:59:35,190: INFO: common: created directory at: artifacts]
+[2025-01-12 17:59:35,191: INFO: common: created directory at: artifacts/model_trainer]
+[2025-01-12 18:01:53,798: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>=0.26.0'`]
+Traceback (most recent call last):
+  File "C:\Users\thaku\Projects\NLP Text Summarization\main.py", line 51, in <module>
+    model_trainer.main()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "C:\Users\thaku\Projects\NLP Text Summarization\src\TextSummarizer\components\model_trainer.py", line 34, in train
+    trainer_args = TrainingArguments(
+                   ^^^^^^^^^^^^^^^^^^
+  File "<string>", line 134, in __init__
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\training_args.py", line 1772, in __post_init__
+    self.device
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\training_args.py", line 2294, in device
+    return self._setup_devices
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\utils\generic.py", line 62, in __get__
+    cached = self.fget(obj)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\thaku\Projects\NLP Text Summarization\env\Lib\site-packages\transformers\training_args.py", line 2167, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>=0.26.0'`
+[2025-01-12 18:07:00,295: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 18:07:00,905: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 18:07:00,921: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 18:07:00,921: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 18:07:00,921: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 18:07:00,921: INFO: common: created directory at: artifacts]
+[2025-01-12 18:07:00,921: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-12 18:07:02,130: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7132:36D686:2B31C6:4120CF:6783B321
+Accept-Ranges: bytes
+Date: Sun, 12 Jan 2025 12:37:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4738-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1736685422.238931,VS0,VE238
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 83e5d66306d0aa1a91528a4b858ae116cf77c492
+Expires: Sun, 12 Jan 2025 12:42:02 GMT
+Source-Age: 0
+
+]
+[2025-01-12 18:07:02,257: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-12 18:07:02,257: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-12 18:07:02,257: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 18:07:02,257: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 18:07:02,257: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 18:07:02,257: INFO: common: created directory at: artifacts]
+[2025-01-12 18:07:02,257: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-12 18:07:02,271: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 18:07:02,272: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-12 18:07:02,273: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 18:07:02,275: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 18:07:02,276: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 18:07:02,276: INFO: common: created directory at: artifacts]
+[2025-01-12 18:07:02,278: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-12 18:07:11,457: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 18:07:11,457: INFO: main: *******************]
+[2025-01-12 18:07:11,457: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-01-12 18:07:11,457: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 18:07:11,474: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 18:07:11,476: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 18:07:11,477: INFO: common: created directory at: artifacts]
+[2025-01-12 18:07:11,477: INFO: common: created directory at: artifacts/model_trainer]
+[2025-01-12 18:23:38,414: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-12 18:23:39,130: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-12 18:23:39,130: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 18:23:39,130: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 18:23:39,130: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 18:23:39,130: INFO: common: created directory at: artifacts]
+[2025-01-12 18:23:39,130: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-12 18:23:39,130: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-01-12 18:23:39,249: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-12 18:23:39,249: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-12 18:23:39,249: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 18:23:39,249: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 18:23:39,249: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 18:23:39,249: INFO: common: created directory at: artifacts]
+[2025-01-12 18:23:39,249: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-12 18:23:39,249: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 18:23:39,249: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-12 18:23:39,249: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 18:23:39,264: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 18:23:39,264: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 18:23:39,264: INFO: common: created directory at: artifacts]
+[2025-01-12 18:23:39,264: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-12 18:23:41,682: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-01-12 18:23:41,682: INFO: main: *******************]
+[2025-01-12 18:23:41,682: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-01-12 18:23:41,685: INFO: common: created directory at: C:\Users\thaku\Projects\NLP Text Summarization\artifacts]
+[2025-01-12 18:23:41,686: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\configuration\config.yaml loaded successfully]
+[2025-01-12 18:23:41,686: INFO: common: yaml file: C:\Users\thaku\Projects\NLP Text Summarization\params.yaml loaded successfully]
+[2025-01-12 18:23:41,686: INFO: common: created directory at: artifacts]
+[2025-01-12 18:23:41,686: INFO: common: created directory at: artifacts/model_trainer]
